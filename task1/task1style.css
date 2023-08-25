@@ -33,6 +33,19 @@
 }
 
 
+.image ul li a span{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 4px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    margin-right: 13px;
+    
+}
+
+
 
 .leftbox {
     
@@ -57,9 +70,18 @@
 
 .set{
   margin-top: 20px;
+  
+}
+
+.main{
+    color: white;
+    font-size: 14px;
+    margin-left: 15%;
 }
 .step {
-    color: white;
+    font-size: 10px;
+    margin-left: 1%;
+    color: gray;
     /* justify-content: space-between; */
     margin-top: 50%;
     
@@ -109,11 +131,6 @@ input {
 
 
 
-.main {
-    /* margin-top: 20px; */
-    color: grey;
-    /* position: absolute; */
-}
 
 
 
