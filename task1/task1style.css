@@ -1,4 +1,5 @@
 .box {
+    font-family: Helvetica, sans-serif;
     height: 100vh;
     width: 100vw;
     background-color: #EEF5FF;
@@ -19,12 +20,27 @@
 
 }
 
+.leftbox .image{
+    
+        background-image: url("assests/leftboxbck.png");
+        height: 95%;
+        /* width: 30%; */
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        border-radius: 10px;
+     
+}
+
+
+
 .leftbox {
+    
     border-radius: 10px;
     /* padding: 20px; */
     height: 95%;
     position: absolute;
-    width: 30%;
+    width: 25%;
     margin: 12px;
     background-color: #483EFF;
 }
@@ -50,12 +66,26 @@
 }
 
 .rightbox h1,
-h4,
 label,
 input {
+    font-family: Helvetica, sans-serif;
     margin-left: 60px;
-    color: blue;
+    color: #032859;
 }
+
+
+
+.rightbox h4{
+    font-family: Helvetica, sans-serif;
+    margin-left: 60px;
+    color:  gray;
+    font-size: 12px;
+}
+
+.nextstep{
+    color: white;
+}
+
 
 .rightbox input {
     width: 70%;
@@ -64,6 +94,7 @@ input {
 
 .rightbox h4 {
     margin-top: -15px;
+    /* color: #032859; */
 }
 
 .rightbox button {
@@ -73,8 +104,10 @@ input {
     right: 17%;
     bottom: 20px;
     position: absolute;
-    background-color: blue;
+    background-color: #032859;
 }
+
+
 
 .main {
     /* margin-top: 20px; */
@@ -93,11 +126,20 @@ input {
     list-style: none;
 }
 
-h4{
-
+/* h4{
+    color: #032859;
     font-size: 15px;
-    /* font: optional; */
+} */
+
+/* .rightbox h1{
+    color: #032859;
+    
 }
+
+label{
+    color: #032859;
+} */
+
 
 
 
