@@ -1,0 +1,71 @@
+.banner{
+    flex-direction: column;
+    display: flex;
+    
+    background-color: aqua;
+    gap: 20px;
+    min-height: 100vh;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.list ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.main{
+    aspect-ratio: 1/1;
+    display: flex;
+    background-color: burlywood;
+    gap: 20px;
+}
+
+.main > div{
+    /* aspect-ratio: 1/1; */
+}
+
+.section{
+    /* aspect-ratio: 1/1; */
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.aside{
+    /* aspect-ratio: 1/1; */
+    flex: 1 1 auto;
+    background-color: blueviolet;
+}
+
+.sub{
+    /* aspect-ratio: 1/1; */
+    gap: 10px;
+    display: flex;
+    background-color: chartreuse;
+    /* justify-content: space-between; */
+}
+
+.image{
+    /* aspect-ratio: 1/1; */
+}
+
+.bright{
+    background-color: cadetblue;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.readmore{
+    background-color: cadetblue;
+    display: flex;
+    flex: 1 1 auto;
+}
+
